@@ -131,13 +131,20 @@
     }
   },
   "defaultProject": "bwm-ng",
+
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
-      "styleext": "scss"
+      "styleext": "scss",
+      "spec": false
+    
+   
+
     },
+
+  
     "@schematics/angular:directive": {
-      "prefix": "app"
+      "prefix": "bwm"
     }
   }
 }
