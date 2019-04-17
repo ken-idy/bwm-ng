@@ -15,6 +15,7 @@ import { TempComponent } from './temp/temp.component';
 
 
 
+
 const routes: Routes = [
 {path: '', component: RentalComponent},
 {path: 'temp', component: TempComponent},
@@ -28,6 +29,7 @@ const routes: Routes = [
     CommonComponent,
     HeaderComponent,
     TempComponent,
+
    
    
   ],
