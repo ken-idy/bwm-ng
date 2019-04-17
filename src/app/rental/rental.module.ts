@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { RentalListComponent } from './rental-list/rental-list.component';
 import { RentalListItemComponent } from './rental-list-item/rental-list-item.component';
 import { RentalComponent } from './rental.component';
+import { RentalService } from './shared/rental.service';
+
 
 @NgModule({
   declarations: [
@@ -13,6 +15,7 @@ import { RentalComponent } from './rental.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  providers: [RentalService ]
 })
 export class RentalModule { }

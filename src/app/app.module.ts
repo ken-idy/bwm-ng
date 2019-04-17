@@ -1,7 +1,9 @@
+
 import { RentalModule } from './rental/rental.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
+
 
 
 import { AppComponent } from './app.component';
@@ -32,7 +34,8 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
-    RentalModule
+    RentalModule,
+   
   ],
   providers: [
      
