@@ -17,7 +17,7 @@ import { TempComponent } from './temp/temp.component';
 
 
 const routes: Routes = [
-{path: '', component: RentalComponent},
+{path: '', redirectTo: '/rentals', pathMatch: 'full'},
 {path: 'temp', component: TempComponent},
 
 
